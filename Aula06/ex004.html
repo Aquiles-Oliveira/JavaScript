@@ -18,5 +18,10 @@
     var idade = window.prompt('Qual é a sua idade?')
     var profissao = window.prompt('Qual é a sua profissão?')
     document.write(`Olá ${nome}! Seu nome tem ${nome.length} letras. E sua idade é ${idade} anos. E você trabalha como ${profissao}.`)
+    if (idade < 18) {
+        document.write('<br>Você é menor de idade.')
+    } else {
+        document.write('<br>Você é maior de idade.')
+    }
 </script>
 </html>
